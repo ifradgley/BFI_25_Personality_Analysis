@@ -60,8 +60,6 @@ sum(is.na(bfi))
         reverse_items <- append(reverse_items, j)    # If true, add the item name to the reverse_items vector
 }
 
-print(reverse_items)
-
 bfi_clean <- bfi  # Create a copy of bfi with ALL columns
 clean_items <- sub("-", "", reverse_items)  # Get the clean column names
 bfi_clean <- bfi_clean %>%

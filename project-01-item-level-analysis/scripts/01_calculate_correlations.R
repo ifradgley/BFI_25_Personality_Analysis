@@ -2,7 +2,7 @@
 # 01_calculate_correlations.R - Calculate and organise dimension totals and item-total correlations
 # ================================
 
-# Empty vector that will hold the five correlation coefficients
+# Empty list that will hold the five correlation coefficients
 cors_list <- list(
   agreeableness_items = c(),
   conscientiousness_items = c(),

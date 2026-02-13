@@ -24,3 +24,26 @@ for (pkg in packages) {
 }
 # Optional: confirmation message
 message("Packages loaded successfully.")
+
+# ================================
+# BFI data checks
+# ================================
+
+# Read RDA file
+load("bfi.rda")
+
+# Check data loaded correctly
+ls()
+dim(bfi)
+
+# View first few rows
+head(bfi)
+
+# Check structure
+str(bfi)
+
+# Summary of data set
+summary(bfi)
+
+# Check for missing values
+sum(is.na(bfi))

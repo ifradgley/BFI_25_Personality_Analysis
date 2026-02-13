@@ -1,2 +1,1 @@
-# BFI_25_Personality_Analysis
-An R programming project.
+# BFI 25 Personality Analysis

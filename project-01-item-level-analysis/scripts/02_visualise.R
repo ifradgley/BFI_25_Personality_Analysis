@@ -25,3 +25,26 @@ for (dim_name in filtered_items) {
   
   print(barplot_correlations)
 }
+
+# Rank items within each dimension from strongest to weakest correlation
+ranked_items <- cors_dataframe_long %>% 
+  group_by(dimension) %>% 
+  mutate(item_rank = rank(-correlation)) %>%
+  # Sort by dimension, then by rank within each dimension
+  arrange(dimension, item_rank)
+
+# Presentable ranking table
+ranking_table <- ranked_items %>%
+  select(dimension, item_rank, item, correlation) %>%
+  mutate(dimension = str_to_title(sub("_items", "", dimension))) %>%
+  rename("Dimension" = dimension, 
+         "Rank" = item_rank, 
+         "Item" = item, 
+         "Correlation" = correlation)
+
+# Display ranking table as a formatted flextable
+flextable(ranking_table) %>%
+  font(fontname = "Arial", part = "all") %>%
+  set_caption("BFI-25 Item Rankings by Dimension")
+
+

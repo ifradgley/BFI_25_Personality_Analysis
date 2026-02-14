@@ -46,8 +46,8 @@ In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness
 
 : Figure 1. Item-total correlations for the five BFI-25 personality dimensions
 
-|                                                  |
-|--------------------------------------------------|
-| ![](images/clipboard-852553224.png){width="205"} |
+|                                             |
+|---------------------------------------------|
+| ![](outputs/tables/rankings_dimensions.png) |
 
 : Table 1. Item-total correlations for BFI-25 subscales

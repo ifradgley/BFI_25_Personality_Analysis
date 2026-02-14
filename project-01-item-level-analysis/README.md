@@ -56,9 +56,9 @@ In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness
 
 The heat map I produced reveals a clear diagonal pattern, showing that items correlate most strongly with the intended BFI-25 dimensions. It can be inferred that the items measured distinct personality constructs with minimal overlap.
 
-|                                                   |
-|---------------------------------------------------|
-| ![](images/clipboard-3884131358.png){width="206"} |
+|                                           |
+|-------------------------------------------|
+| ![](outputs/plots/heatmap_dimensions.png) |
 
 : Figure 2. Inter-item correlation heatmap
 

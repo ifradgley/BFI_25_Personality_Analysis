@@ -47,4 +47,16 @@ flextable(ranking_table) %>%
   font(fontname = "Arial", part = "all") %>%
   set_caption("BFI-25 Item Rankings by Dimension")
 
+# Create a heatmap showing all 25 items across all 5 dimensions
+heatmap_items <- cors_dataframe_long %>%
+  mutate(dimension_clean = str_to_title(sub("_items", "", dimension))) %>%
+  ggplot(aes(x = dimension_clean, y = item, fill = correlation)) + 
+  geom_tile() +
+  ggtitle("BFI-25 Item-Dimension Correlations Heatmap") +
+  xlab("Dimension") +
+  ylab("Item") +
+  scale_fill_gradient(low = "white", high = "darkblue", name = "Correlation") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(heatmap_items)
 

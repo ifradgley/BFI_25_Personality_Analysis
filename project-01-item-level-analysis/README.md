@@ -26,6 +26,8 @@ I then calculated scale scores using available item responses i.e., missing item
 
 I then ranked items in descending order to their corrected item-total correlations (CITCs) values. to identify the strongest and weakest contributions to internal consistency. I produced a horizontal bar plot for each dimension to visualize relative item discrimination.
 
+Following this, I created a heat map showing all 25 items across all 5 dimensions.
+
 ## Results
 
 Standard Thresholds - common conventions:
@@ -51,3 +53,25 @@ In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness
 | ![](outputs/tables/rankings_dimensions.png) |
 
 : Table 1. Item-total correlations for BFI-25 subscales
+
+The heat map I produced reveals a clear diagonal pattern, showing that items correlate most strongly with the intended BFI-25 dimensions. It can be inferred that the items measured distinct personality constructs with minimal overlap.
+
+|                                                   |
+|---------------------------------------------------|
+| ![](images/clipboard-3884131358.png){width="206"} |
+
+: Figure 2. Inter-item correlation heatmap
+
+## Limitations and Next steps
+
+#### Validity
+
+Although I measured item-total correlation, this does not prove the items validity - it measures only that they correlate with their dimension tools. - correlation does not imply causation. My findings are based on one data set, thus a generalization cannot be made.
+
+#### Reliability
+
+I did not calculate Cronbach's alpha in this project, I therefore do not know if the internal consistency of the items within a dimension reliably measure the same construct.
+
+#### Bias
+
+I did not complete an item bias analysis by measuring if items function differently across demographic groups.

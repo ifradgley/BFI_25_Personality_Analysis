@@ -44,4 +44,10 @@ In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness
 |---------------|---------------|---------------|---------------|---------------|
 | ![](outputs/plots/agreeableness_correlations.png) | ![](outputs/plots/conscientiousness_correlations.png) | ![](outputs/plots/extraversion_correlations.png) | ![](outputs/plots/neuroticism_correlations.png) | ![](outputs/plots/openness_correlations.png) |
 
-![](images/clipboard-852553224.png){width="199"}
+: Figure 1. Item-total correlations for the five BFI-25 personality dimensions
+
+|                                                  |
+|--------------------------------------------------|
+| ![](images/clipboard-852553224.png){width="205"} |
+
+: Table 1. Item-total correlations for BFI-25 subscales

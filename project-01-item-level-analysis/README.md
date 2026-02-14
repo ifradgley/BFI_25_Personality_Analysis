@@ -43,3 +43,5 @@ In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness
 |  |  |  |  |  |
 |---------------|---------------|---------------|---------------|---------------|
 | ![](outputs/plots/agreeableness_correlations.png) | ![](outputs/plots/conscientiousness_correlations.png) | ![](outputs/plots/extraversion_correlations.png) | ![](outputs/plots/neuroticism_correlations.png) | ![](outputs/plots/openness_correlations.png) |
+
+![](images/clipboard-852553224.png){width="235"}

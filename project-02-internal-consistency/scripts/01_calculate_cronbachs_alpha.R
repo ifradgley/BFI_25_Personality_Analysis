@@ -26,5 +26,27 @@ for (subscale in names(subscales_alpha)) {
  alpha_list[[subscale]] <- psych::alpha(bfi_clean[, subscales_alpha[[subscale]]]) 
 }
 
-# Convert list to dataframe 
-alpha_dataframe <- as.data.frame(alpha_list)
+# Extract key statistics from each subscale's alpha object
+
+all_alphas <- data.frame(
+  subscale = names(alpha_list),
+  raw_alphas = sapply(alpha_list, function(item) item$total$raw_alpha),
+  std_alphas = sapply(alpha_list, function(item) item$total$std.alpha),
+  avg_r = sapply(alpha_list, function(item) item$total$average_r)
+  )
+
+# Remove "_items" suffix from subscale names for cleaner display
+
+all_alphas$subscale <- gsub("_items", "", all_alphas$subscale)
+
+# Format results into table
+
+knitr::kable(all_alphas,
+             digits = 2,
+             row.names = FALSE,
+             col.names = c("Subscale", "Raw α", "Std α", "Avg r"),
+             caption = "<span style='font-size: 16px; font-weight: bold;'>Cronbach's Alpha by Subscale</span>"
+             ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = FALSE) %>%
+                column_spec(1, bold = TRUE)

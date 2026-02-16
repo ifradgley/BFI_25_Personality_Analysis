@@ -42,9 +42,16 @@ Item N3 showed exceptional strength (r = 0.80). Future investigation could exami
 
 In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness dimension, just falling below the 0.50 threshold for strong discrimination.
 
-> ![](outputs/plots/agreeableness_correlations.png) ![](outputs/plots/conscientiousness_correlations.png) ![](outputs/plots/extraversion_correlations.png)![](outputs/plots/neuroticism_correlations.png) ![](outputs/plots/openness_correlations.png)
->
-> > Figure 1. Item-total correlations for the five BFI-25 personality dimensions
+| | |
+|:-------------------------:|:-------------------------:|
+| ![](outputs/plots/agreeableness_correlations.png) | ![](outputs/plots/conscientiousness_correlations.png) |
+| ![](outputs/plots/extraversion_correlations.png) | ![](outputs/plots/neuroticism_correlations.png) |
+
+<p align="center">
+  <img src="outputs/plots/openness_correlations.png" width="45%" />
+</p>
+
+> Figure 1. Item-total correlations for the five BFI-25 personality dimensions
 
 > | Dimension         | Rank | Item | Correlation |
 > |-------------------|------|------|-------------|

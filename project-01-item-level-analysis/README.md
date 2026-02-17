@@ -43,53 +43,53 @@ Item N3 showed exceptional strength (r = 0.80). Future investigation could exami
 In contrast, item O4 showed the weakest correlation (r = 0.49) with the Openness dimension, just falling below the 0.50 threshold for strong discrimination.
 
 <p align="center">
-<img src="outputs/plots/agreeableness_correlations.png" width="45%" /><img src="outputs/plots/conscientiousness_correlations.png" width="45%" />
+<img src="outputs/plots/agreeableness_correlations.png" width="45%"/><img src="outputs/plots/conscientiousness_correlations.png" width="45%"/>
 </p>
 
 <p align="center">
-<img src="outputs/plots/extraversion_correlations.png" width="45%" /><img src="outputs/plots/neuroticism_correlations.png" width="45%" />
+<img src="outputs/plots/extraversion_correlations.png" width="45%"/><img src="outputs/plots/neuroticism_correlations.png" width="45%"/>
 </p>
 
 <p align="center">
-  <img src="outputs/plots/openness_correlations.png" width="45%" />
+<img src="outputs/plots/openness_correlations.png" width="45%"/>
 </p>
 
 > Figure 1. Item-total correlations for the five BFI-25 personality dimensions
 
-> | Dimension         | Rank | Item | Correlation |
-> |-------------------|------|------|-------------|
-> | Agreeableness     | 1    | A3   | 0.749       |
-> | Agreeableness     | 2    | A2   | 0.717       |
-> | Agreeableness     | 3    | A5   | 0.669       |
-> | Agreeableness     | 4    | A4   | 0.637       |
-> | Agreeableness     | 5    | A1   | 0.572       |
-> | Conscientiousness | 1    | C4   | 0.729       |
-> | Conscientiousness | 2    | C5   | 0.700       |
-> | Conscientiousness | 3    | C2   | 0.687       |
-> | Conscientiousness | 4    | C3   | 0.654       |
-> | Conscientiousness | 5    | C1   | 0.643       |
-> | Extraversion      | 1    | E2   | 0.770       |
-> | Extraversion      | 2    | E4   | 0.738       |
-> | Extraversion      | 3    | E1   | 0.720       |
-> | Extraversion      | 4    | E3   | 0.676       |
-> | Extraversion      | 5    | E5   | 0.640       |
-> | Neuroticism       | 1    | N3   | 0.800       |
-> | Neuroticism       | 2    | N1   | 0.795       |
-> | Neuroticism       | 3    | N2   | 0.782       |
-> | Neuroticism       | 4    | N4   | 0.713       |
-> | Neuroticism       | 5    | N5   | 0.678       |
-> | Openness          | 1    | O3   | 0.666       |
-> | Openness          | 2    | O5   | 0.663       |
-> | Openness          | 3    | O2   | 0.642       |
-> | Openness          | 4    | O1   | 0.605       |
-> | Openness          | 5    | O4   | 0.491       |
->
+ | Dimension         | Rank | Item | Correlation |
+ |-------------------|------|------|-------------|
+ | Agreeableness     | 1    | A3   | 0.749       |
+ | Agreeableness     | 2    | A2   | 0.717       |
+ | Agreeableness     | 3    | A5   | 0.669       |
+ | Agreeableness     | 4    | A4   | 0.637       |
+ | Agreeableness     | 5    | A1   | 0.572       |
+ | Conscientiousness | 1    | C4   | 0.729       |
+ | Conscientiousness | 2    | C5   | 0.700       |
+ | Conscientiousness | 3    | C2   | 0.687       |
+ | Conscientiousness | 4    | C3   | 0.654       |
+ | Conscientiousness | 5    | C1   | 0.643       |
+ | Extraversion      | 1    | E2   | 0.770       |
+ | Extraversion      | 2    | E4   | 0.738       |
+ | Extraversion      | 3    | E1   | 0.720       |
+ | Extraversion      | 4    | E3   | 0.676       |
+ | Extraversion      | 5    | E5   | 0.640       |
+ | Neuroticism       | 1    | N3   | 0.800       |
+ | Neuroticism       | 2    | N1   | 0.795       |
+ | Neuroticism       | 3    | N2   | 0.782       |
+ | Neuroticism       | 4    | N4   | 0.713       |
+ | Neuroticism       | 5    | N5   | 0.678       |
+ | Openness          | 1    | O3   | 0.666       |
+ | Openness          | 2    | O5   | 0.663       |
+ | Openness          | 3    | O2   | 0.642       |
+ | Openness          | 4    | O1   | 0.605       |
+ | Openness          | 5    | O4   | 0.491       |
+
 > | Table 1. Item-total correlations for BFI-25 subscales
 
 The heat map I produced reveals a clear diagonal pattern, showing that items correlate most strongly with the intended BFI-25 dimensions. It can be inferred that the items measured distinct personality constructs with minimal overlap.
 
-> ![](outputs/plots/heatmap_dimensions.png)
->
+![](outputs/plots/heatmap_dimensions.png)
+
 > | Figure 2. Inter-item correlation heatmap
 
 ## Limitations and Next steps
